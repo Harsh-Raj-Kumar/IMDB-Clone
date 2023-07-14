@@ -1,0 +1,97 @@
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+
+.home{
+  padding-top: 6rem;
+  padding-bottom: 0.2rem;
+  
+}
+.movie-button{
+  /* padding-top: 0.5em; */
+  padding-bottom: 0.5em;
+  
+}
+.logo-name {
+    color :#d4aa11;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.nav-bar-items{
+    padding: 0% 5%;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.navPad{
+  padding-left: 0.6rem;
+  padding-right: 4.5rem;
+}
+.drop-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn{
+  margin-top: 6px;
+  /* background-color :#d4aa11; */
+}
+.btn-primary {
+  background-color :#d4aa11;
+  border-color: #d4aa11;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-default{
+  background-color :#d4aa11;
+  border-color: #d4aa11;
+  /* color: black; */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold; 
+}
+.btn-light{
+  background-color :rgb(211, 18, 18);
+  border-color: rgb(211, 18, 18);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.drop-movie{
+  margin-top: 12px;
+  color: white;
+}
+.drop-down{
+  background-color: #181818;
+  margin-top: 0.2rem;
+  margin-left: 0.6rem;
+  width: 1125px;
+}
+.drop-row:hover img{
+  transform: scale(2.0);
+}
+.well{
+  margin: 1.5rem;
+}
+#favourite_movie img, #favourite_movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #favourite_movie .col-md-3 .well{
+    height: 390px;
+  }
+
+  #favourite_movie .col-md-3 img{
+    height:240px;
+  }
+}
+
